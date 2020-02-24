@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.tzoker-results {
+    display: grid;
+    align-items: center;
+    margin-top:14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.tzoker-numbers {
+    display: grid;
+    grid-template-columns: repeat(6, 30px);
+    grid-template-rows: 30px;
+    grid-column-gap: 4px;
+    grid-row-gap: 2px;
+    align-items: center;
+}
+
+.tzoker-numbers .tzoker-num {
+    text-align: center;
+    background: #104c8c;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.tzoker-bonus {
+    text-align: center;
+    background-color: #ffc314;
+    color: #104c8c;
+    border: 1px solid #ffc314;
+}
+
+.tzoker-time {
+    color: #104c8c;
+    text-align: center;
+    font-weight:600;
+}
+
+.tzoker-logo {
+    display: flex;
+    width:200px;
+}
+
+.tzoker-logo img {
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lotto-results {
+    display: grid;
+    align-items: center;
+    margin-top:14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.lotto-numbers {
+    display: grid;
+    grid-template-columns: repeat(6, 30px) 10px 30px;
+    grid-template-rows: 30px;
+    grid-column-gap: 4px;
+    grid-row-gap: 2px;
+    align-items: center;
+    
+}
+
+.lotto-numbers .lotto-num {
+    text-align: center;
+    background: #fedc00;
+    color: #333;
+    border: 1px solid #fedc00;;
+}
+
+.game { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lotto-bonus {
+    text-align: center;
+    background-color: #fedc00;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.lotto-logo {
+    display: flex;  
+}
+
+.lotto-logo img {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lotto-time {
+    color: #104c8c;
+    text-align: center;
+    font-weight:600;
+}
+
+.proto-time {
+    color: #104c8c;
+    text-align: center;
+    font-weight:600;
+}
+
+.proto-numbers {
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    grid-template-rows: 30px;
+    grid-column-gap: 4px;
+    grid-row-gap: 2px;
+    align-items: center;
+}
+
+.proto-numbers .proto-num {
+    text-align: center;
+    background: #1d427c;
+    color: #fff;
+    border: 1px solid #1d427c;
+}
+
+.proto-logo {
+    display: flex;
+}
+
+.proto-logo img {
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proto-results {
+    display: grid;
+    align-items: center;
+    margin-top:14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.tzoker, .lotto, .proto {
+    margin-bottom: 50px;
+}
